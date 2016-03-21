@@ -31,7 +31,7 @@ class Sklonjator
 
     ostatok100 = number % 100
     if (ostatok100 >= 11 && ostatok100 <= 14)  # исключение для цифр от 11 до 14
-      return "#{prefix}#{krokodilov}"          # родительный патеж (Кого? Чего?)
+      return "#{prefix}#{krokodilov}"          # родительный падеж (Кого? Чего?)
     end
 
     if (ostatok == 1)
